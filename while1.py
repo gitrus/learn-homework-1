@@ -11,8 +11,9 @@
 
 
 def ask_user():
-    while input('Как дела?\n') not in ['Хорошо','хорошо']:
-          continue
+    status = ''
+    while status not in ['Хорошо','хорошо']:
+        status = input('Как дела?')
 
     
 if __name__ == "__main__":
