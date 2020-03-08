@@ -11,10 +11,9 @@
 
 
 def ask_user():
-    """
-    Замените pass на ваш код
-    """
-    pass
+    status = ''
+    while status not in ['Хорошо','хорошо']:
+        status = input('Как дела?')
 
     
 if __name__ == "__main__":
